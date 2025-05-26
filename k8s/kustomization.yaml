@@ -6,4 +6,4 @@ resources:
 images:
 - name: hello-fastapi
   newName: jkvuacamila/hello-fastapi-k8s
-  newTag: 9534d764a0858dcf60a3ddba6a2fb97a8d513442
+  newTag: 4c8df4db6ea4608b3ded06ad9bc0b4afb2554fc8
