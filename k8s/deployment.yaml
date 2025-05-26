@@ -16,5 +16,5 @@ spec:
         - name: hello-fastapi
           image: jkvuacamila/hello-fastapi-k8s
           ports:
-            - containerPort: 8000
+          - containerPort: 8000
 
