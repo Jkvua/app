@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: hello-fastapi
 spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: hello-fastapi
-  template:
-    metadata:               # corrigido "matadata"
-      labels:
+    replicas: 3
+    selector:
+      matchLabels:
         app: hello-fastapi
-    spec:
-      containers:
+    template:
+      metadata:           
+        labels:
+          app: hello-fastapi
+      spec:
+        containers:
         - name: hello-fastapi
           image: jkvuacamila/hello-fastapi-k8s
           ports:
